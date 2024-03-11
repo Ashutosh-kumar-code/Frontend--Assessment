@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+</head>
+<body>
+  <div class="dashboard_maindiv"> 
+    <div class="dashboardflex_class">
+
+        <div class="leftssection_givewidth">
+
+            <div class="leftpart_mainsection responsive_dispnone"> 
+            <div class="leftheader_maindiv">
+<div class="companyimg">
+    <img src="./images/comp_img.png" alt="">
+    <div>
+        <p>IMU</p>
+        <h6>InnovateHub</h6>
+    </div>
+</div>
+
+<div class="profileimg">
+    <img src="./images/man.png" alt="">
+
+</div>
+
+            </div>
+
+            <div class="teamsdetaildiv">
+                <button> <div class="name"><img src="./images/dice-with-four-points.png" alt="">Design Team</div> <div class="count">X + 1</div> </button>
+                <button> <div class="name"><img src="./images/torch.png" alt="">Marketing Team</div> <div class="count">X + 2</div>  </button>
+                <button> <div class="name"><img src="./images/left-and-right.png" alt="">Development Team</div> <div class="count">X + 3</div> </button>
+                <button class="crush_light"> <img src="./images/dot.png" alt=""> Crush Start</button>
+            </div>
+
+            <!-- ------ FOLDER PRODUCTS ------ -->
+
+            <div class="newfolder_add">
+              <h4>FOLDERS</h4>
+              <button>+</button>
+            </div>
+            <div class="folder_productfaqs">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                         <img src="./images/folder.png" alt=""> Products 
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                             <button>Roadmap</button>
+                             <button>Feedback</button>
+                             <button>Performance</button>
+                             <button>Team</button>
+                             <button>Analytics</button>
+                             <button class="crush_light"> <img src="./images/dot.png" alt=""> Crush Start</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          <img src="./images/folder.png" alt=""> Sales
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <button>Roadmap</button>
+                          <button>Feedback</button>
+                          <button>Performance</button>
+                          <button>Team</button>
+                          <button>Analytics</button>
+                          <button class="crush_light"> <img src="./images/dot.png" alt=""> Crush Start</button>
+                    </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <img src="./images/folder.png" alt=""> Design
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <button>Roadmap</button>
+                          <button>Feedback</button>
+                          <button>Performance</button>
+                          <button>Team</button>
+                          <button>Analytics</button>
+                          <button class="crush_light"> <img src="./images/dot.png" alt=""> Crush Start</button>
+                   </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button class="office_btn">  <img src="./images/folder.png" alt=""> Office </button>
+                  <button class="office_btn"> <img src="./images/folder.png" alt=""> Legal </button>
+
+            </div>
+
+             <!-- ------ FOLDER PRODUCTS ------ -->
+
+             <div class="belowinvitebtns">
+              <button> <img src="./images/add-group.png" alt=""> Invite teammate</button>
+              <button> <img src="./images/question.png" alt=""> Help and first steps</button>
+
+              <div class="addbilling_btn">
+                <h6><img src="./images/day-and-night.png" alt=""> days left on trial</h6>
+                <button type="button"  >Add billing</button>
+              </div>
+
+             </div>
+        </div>
+
+        </div>
+
+        <div class="rightsection_givewidth ">
+
+              <div class="righttopsection">
+                
+                <div class="leftsearchflexpart">
+                    <h2 class="heading_h2">Products</h2>
+
+                    <div class="rightlast_settingflex">  
+                    <div class="inputfiled1">
+                        <img src="./images/search_icon.png" alt="">
+                        <input id="myInput" type="text" onkeyup="myFunction()" placeholder="Search for..">
+                    </div>
+                    <div class="flexchatsicons"> 
+                    <button> <img src="./images/chatting.png" alt=""> </button>
+                    <button> <img src="./images/setting.png" alt=""> </button>
+                    <button class="btn open_drawer" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                      <img src="./images/filter.png" alt="">
+                    </div>
+                    </button>
+                </div>
+                
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                  <div class="offcanvas-header">
+                    <!-- <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"> <img src="./images/close.png" alt=""> </button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <div class="leftpart_mainsection"> 
+                      <div class="leftheader_maindiv">
+          <div class="companyimg">
+              <img src="./images/comp_img.png" alt="">
+              <div>
+                  <p>IMU</p>
+                  <h6>InnovateHub</h6>
+              </div>
+          </div>
+          
+          <div class="profileimg">
+              <img src="./images/man.png" alt="">
+          
+          </div>
+                      </div>
+          
+                      <div class="teamsdetaildiv">
+                          <button> <div class="name"><img src="./images/dice-with-four-points.png" alt="">Design Team</div> <div class="count">X + 1</div> </button>
+                          <button> <div class="name"><img src="./images/torch.png" alt="">Marketing Team</div> <div class="count">X + 2</div>  </button>
+                          <button> <div class="name"><img src="./images/left-and-right.png" alt="">Development Team</div> <div class="count">X + 3</div> </button>
+                          <button class="crush_light"> <img src="./images/dot.png" alt=""> Crush Start</button>
+                      </div>
+          
+                      <!-- ------ FOLDER PRODUCTS ------ -->
+          
+                      <div class="newfolder_add">
+                        <h4>FOLDERS</h4>
+                        <button>+</button>
+                      </div>
+                      <div class="folder_productfaqs">
+                          <div class="accordion" id="accordionExample">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                   <img src="./images/folder.png" alt=""> Products 
+                                  </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                       <button>Roadmap</button>
+                                       <button>Feedback</button>
+                                       <button>Performance</button>
+                                       <button>Team</button>
+                                       <button>Analytics</button>
+                                       <button class="crush_light"> <img src="./images/dot.png" alt=""> Crush Start</button>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <img src="./images/folder.png" alt=""> Sales
+                                  </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <button>Roadmap</button>
+                                    <button>Feedback</button>
+                                    <button>Performance</button>
+                                    <button>Team</button>
+                                    <button>Analytics</button>
+                                    <button class="crush_light"> <img src="./images/dot.png" alt=""> Crush Start</button>
+                              </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <img src="./images/folder.png" alt=""> Design
+                                  </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <button>Roadmap</button>
+                                    <button>Feedback</button>
+                                    <button>Performance</button>
+                                    <button>Team</button>
+                                    <button>Analytics</button>
+                                    <button class="crush_light"> <img src="./images/dot.png" alt=""> Crush Start</button>
+                             </div>
+                                </div>
+                              </div>
+                            </div>
+          
+                            <button class="office_btn">  <img src="./images/folder.png" alt=""> Office </button>
+                            <button class="office_btn"> <img src="./images/folder.png" alt=""> Legal </button>
+          
+                      </div>
+          
+          
+                       <!-- ------ FOLDER PRODUCTS ------ -->
+          
+                       <div class="belowinvitebtns">
+                        <button> <img src="./images/add-group.png" alt=""> Invite teammate</button>
+                        <button> <img src="./images/question.png" alt=""> Help and first steps</button>
+          
+                        <div class="addbilling_btn">
+                          <h6><img src="./images/day-and-night.png" alt=""> days left on trial</h6>
+                          <button type="button"  >Add billing</button>
+                        </div>    
+          
+                       </div>
+                  </div>
+                    
+                  </div>
+                </div>
+
+                </div>
+            </div>  
+
+                <!-- ------ RIGHT FILTER SECTION ------ -->
+                  <div class="rights_filtersection">
+
+                    <div class="flex_dropdownlist"> 
+
+<div class="branddiv_flex" > 
+                    <div class="dropdown_div">
+                        <div class="dropdown">
+                            <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="./images/dice-with-four-points.png" alt="">  All brands
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
+                    </div>
+
+                    <div class="dropdown_div">
+                        <div class="dropdown">
+                            <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Desk
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
+                    </div>
+
+                  </div>
+
+                  <div class="filter_filex"> 
+                    <div class="dropdown_div">
+                        <div class="dropdown">
+                            <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Tags
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
+                    </div>
+
+                    <button> <img src="./images/up-and-down-arrows.png" alt=""> Sort</button>
+                    <button> <img src="./images/filter.png" alt=""> Filter</button>
+
+                  </div>
+
+                </div>
+
+                <div class="flex_meetinglist flex_dropdownlist">
+                    <button> <img src="./images/dot.png" alt=""> Meeting</button>
+                    <button> <img src="./images/import.png" alt=""> Import/Export</button>
+                </div>
+             
+                </div> 
+                <!-- ------ RIGHT FILTER SECTION END ------ -->
+
+                <div class="rightbottom_mainsection">
+<div class="tableof_dashboard" style="overflow-x:auto;" > 
+     
+    <table class=" " id="table_width" >
+        <thead>
+            <tr>
+              <th scope="col" class="first_td" > <div class="checkboxflex"> <div> <input id="Brand" type="checkbox"> <label for="Brand">Brand</label> </div> <button>+</button> </div> </th>
+              <th scope="col">Description</th>
+              <th scope="col">Members</th>
+              <th scope="col">Categories</th>
+              <th scope="col">Tags</th>
+              <th scope="col">NextMeeting</th>
+              <th scope="col" class="last_td" >+</th>
+            </tr>
+          </thead>
+
+            <tbody id="tablemapdata" > </tbody>
+ 
+            <tbody class="last_rowoftable">
+              <tr>
+                <td class="first_td" > <p> <span>10</span> count </p> </td>
+                <td class="first_td" >  <button>+ Add calculation</button> </td>
+                <td>  <button>+ Add calculation</button> </td>
+                <td>  <button>+ Add calculation</button> </td>
+                <td> <button>+ Add calculation</button> </td>
+                <td> </td>
+                <td class="last_td" ></td>
+              </tr>
+  
+              </tbody>
+
+      </table>
+
+                 </div>
+                </div>
+
+                <!-- ----------- SHOW SELECTED SECTION BOTTOM ------ -->
+
+                <div class="selected_mianclass"> 
+                <div class="selectlast_sectionbutns">
+                  <div class="count_flex"> <p>3</p> <h6> Selected</h6></div>
+                  <button> <img src="/images/box.png" alt=""> Achive</button>
+                  <button> <img src="./images/delete.png" alt=""> Delete </button>
+                  <div class="dropdown_div">
+                    <div class="dropdown">
+                        <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          More
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                        </ul>
+                      </div>
+                </div>
+                <button class="cross_btn"> <img src="./images/close.png" alt=""> </button>
+
+                </div>
+              </div>
+            
+        </div>
+    </div>
+
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+    <script src="./assets/js/app.js"></script>
+
+
+</body>
+</html>
